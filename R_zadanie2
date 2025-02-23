@@ -1,0 +1,8 @@
+pole_kola <- function(r) {
+  if(r<0){
+    stop("promien nie moze byc ujemny")
+  }
+  return(pi*r^2)
+}
+
+print(pole_kola(7))
