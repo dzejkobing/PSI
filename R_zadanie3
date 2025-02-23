@@ -1,6 +1,6 @@
 pole_kola <- function(r) {
-  if(r<0){
-    stop("promien nie moze byc ujemny")
+  if(r<=0){
+    stop("promien musi byc dodatni")
   }
   return(pi*r^2)
 }
