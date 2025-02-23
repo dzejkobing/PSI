@@ -1,0 +1,8 @@
+przeciwprostokatna <- function(a,b){
+  if(a<=0 || b<=0){
+    stop("dlugosci bokow musza byc dodatnie")
+  }
+  return (sqrt(a^2+b^2))
+}
+
+print(przeciwprostokatna(3,4))
